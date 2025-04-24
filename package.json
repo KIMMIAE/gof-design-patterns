@@ -1,0 +1,21 @@
+{
+  "name": "gof-design-patterns",
+  "version": "1.0.0",
+  "description": "- 설계를 올바르고 효과적으로 하기 위해서 디자인 패턴을 적용하는 게 좋다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack",
+    "watch": "webpack --watch",
+    "start": "npm run bundle && npm run watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1"
+  }
+}
