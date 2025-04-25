@@ -3,7 +3,7 @@ module.exports = {
   mode: 'development',
   // entry: './src/index.ts',
   // entry: './src/behavioral/iterator/index.ts',
-  entry: './src/strategy/index.ts',
+  entry: './src/behavioral/strategy/index.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
