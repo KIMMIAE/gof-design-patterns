@@ -4,7 +4,7 @@ module.exports = {
   // entry: './src/index.ts',
   // entry: './src/behavioral/iterator/index.ts',
   // entry: './src/behavioral/strategy/index.ts',
-  entry: './src/template/index.ts',
+  entry: './src/behavioral/template/index.ts',
 
   devtool: 'inline-source-map',
   module: {
