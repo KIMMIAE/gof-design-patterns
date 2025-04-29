@@ -7,7 +7,8 @@ module.exports = {
   // entry: './src/behavioral/template/index.ts',
   // entry: './src/structural/adapter/index.ts',
   // entry: './src/structural/bridge/index.ts',
-  entry: './src/structural/decorator/index.ts',
+  // entry: './src/structural/decorator/index.ts',
+  entry: './src/creational/singleton/index.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
