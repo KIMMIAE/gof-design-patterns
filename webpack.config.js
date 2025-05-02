@@ -11,7 +11,8 @@ module.exports = {
   // entry: './src/creational/singleton/index.ts',
   // entry: './src/structural/flyweight/index.ts',
   // entry: './src/structural/composite/index.ts',
-  entry: './src/creational/factory-method/index.ts',
+  // entry: './src/creational/factory-method/index.ts',
+  entry: './src/behavioral/observer/index.ts',
 
   devtool: 'inline-source-map',
   module: {
