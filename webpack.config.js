@@ -10,7 +10,9 @@ module.exports = {
   // entry: './src/structural/decorator/index.ts',
   // entry: './src/creational/singleton/index.ts',
   // entry: './src/structural/flyweight/index.ts',
-  entry: './src/structural/composite/index.ts',
+  // entry: './src/structural/composite/index.ts',
+  entry: './src/creational/factory-method/index.ts',
+
   devtool: 'inline-source-map',
   module: {
     rules: [
