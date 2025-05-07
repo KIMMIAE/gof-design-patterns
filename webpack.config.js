@@ -13,7 +13,8 @@ module.exports = {
   // entry: './src/structural/composite/index.ts',
   // entry: './src/creational/factory-method/index.ts',
   // entry: './src/behavioral/observer/index.ts',
-  entry: './src/behavioral/mediator/index.ts',
+  // entry: './src/behavioral/mediator/index.ts',
+  entry: './src/structural/proxy/index.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
