@@ -19,7 +19,8 @@ module.exports = {
   // entry: './src/behavioral/chain-of-responsibility/index.ts',
   // entry: './src/creational/prototype/index.ts',
   // entry: './src/structural/facade/index.ts',
-  entry: './src/creational/builder1/index.ts',
+  // entry: './src/creational/builder1/index.ts',
+  entry: './src/creational/builder2/index.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
