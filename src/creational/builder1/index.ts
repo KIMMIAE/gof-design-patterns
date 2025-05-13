@@ -16,3 +16,4 @@ const car2 = new CarBuilder()
   .setColor('white')
   .setEngine('V9')
   .build();
+car2.print();
