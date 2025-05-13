@@ -1,12 +1,12 @@
 import Builder from './Builder';
 import Data from './Data';
 
-export default class PlainTextBuilder extends Builder {
+export default class XMLBuilder extends Builder {
   head(): string {
-    return '';
+    return '<?xml version="1.0" encoding="UTF-8"?><DATA>';
   }
   body(): string {
-    return `Name: ${this.data.name}, Age: ${this.data.age}`;
+    return `<NAME>${this.data.name}</NAME><AGE>${this.data.age}</AGE>`;
   }
   foot(): string {
     return '';
