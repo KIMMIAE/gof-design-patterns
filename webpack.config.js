@@ -21,7 +21,8 @@ module.exports = {
   // entry: './src/structural/facade/index.ts',
   // entry: './src/creational/builder1/index.ts',
   // entry: './src/creational/builder2/index.ts',
-  entry: './src/behavioral/command/index.ts',
+  // entry: './src/behavioral/command/index.ts',
+  entry: './src/creational/abstract-factory/index.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
