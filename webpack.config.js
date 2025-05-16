@@ -24,7 +24,8 @@ module.exports = {
   // entry: './src/behavioral/command/index.ts',
   // entry: './src/creational/abstract-factory/index.ts',
   // entry: './src/behavioral/state/index.ts',
-  entry: './src/behavioral/interpreter/index.ts',
+  // entry: './src/behavioral/interpreter/index.ts',
+  entry: './src/behavioral/visitor/index.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
